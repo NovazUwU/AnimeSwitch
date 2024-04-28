@@ -1,8 +1,0 @@
-local args = {
-    [1] = {
-        ["Type"] = "RegisterSaveStone",
-        ["SaveStone"] = "Bamek"
-    }
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("RemoteObjects"):WaitForChild("CTS"):FireServer(unpack(args))
