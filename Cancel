@@ -7,3 +7,14 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteObjects"):WaitForChild("CTS"):FireServer(unpack(args))
 
+task.wait(2.5)
+
+local args = {
+    [1] = {
+        ["Type"] = "SaveStoneSetSpawn",
+        ["SaveStone"] = "Bamek"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteObjects"):WaitForChild("CTS"):FireServer(unpack(args))
+
