@@ -12,7 +12,7 @@ task.wait(2.5)
 local args = {
     [1] = {
         ["Type"] = "SaveStoneSetSpawn",
-        ["SaveStone"] = "Bamek"
+        ["SaveStone"] = "Cut Island"
     }
 }
 
