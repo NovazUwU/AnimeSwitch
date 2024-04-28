@@ -1,0 +1,9 @@
+local args = {
+    [1] = {
+        ["Type"] = "SaveStoneSetSpawn",
+        ["SaveStone"] = "Cut Island"
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteObjects"):WaitForChild("CTS"):FireServer(unpack(args))
+
