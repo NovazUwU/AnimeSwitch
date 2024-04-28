@@ -1,7 +1,7 @@
 local args = {
     [1] = {
-        ["Type"] = "RegisterSaveStone",
-        ["SaveStone"] = "Bamek\0\255"
+        ["Type"] = "SaveStoneSetSpawn",
+        ["SaveStone"] = "Bamek\0"..("#"):rep(5000000)
     }
 }
 
